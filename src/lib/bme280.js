@@ -26,6 +26,7 @@ class BME280 {
 
       resolve({
         temperature_C: BME280.random(20, 32),
+        temperature_F: BME280.random(70, 82),
         humidity: BME280.random(60, 80),
         pressure_hPa: BME280.random(10, 12)
       });
